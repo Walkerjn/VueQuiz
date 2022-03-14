@@ -1,6 +1,6 @@
 <template>
 <main class="app">
-  <h1>Tiger Woods</h1>
+  <h1>Tiger Woods Quiz</h1>
   <section class="quiz" v-if="!quizCompleted">
     <div class="quiz-info">
       <span class="question">{{ getCurrentQuestion.question }}</span>
